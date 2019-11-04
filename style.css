@@ -1,16 +1,48 @@
-body, h1, h2, h3, h4, h5, h6 {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
 }
 
-.row-padding img {margin-bottom: 12px}
+body {
+    background-image: linear-gradient (#5A8C80, #ffffff);
+}
 
-.sidebar {width: 120px;background: #222;}
+.center {
+    text-align: center;
+}
 
-#main {margin-left: 120px}
+.row-padding img {
+    margin-bottom: 12px
+}
 
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.sidebar {
+    width: 120px;
+    background: gray;
+}
+
+#main {
+    margin-left: 120px
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
 
 .grad {
-    background-image: linear-gradient(#5A8C80, #ffffff);
-  }
+    background-image: linear-gradient (#5A8C80, #ffffff);
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
